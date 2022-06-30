@@ -219,4 +219,11 @@ Go to the project folder
 ```
 cd BankTraders
 ```
+Add the dependencies
+```
+dotnet add package Microsoft.EntityFrameworkCore.Design
+```
+```
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+```
 ---
