@@ -255,7 +255,7 @@ dotnet ef dbcontext scaffold "Data Source=localhost; Initial Catalog=Bank; User 
 ```
 
 ![](https://user-images.githubusercontent.com/9384127/176758898-257c5756-e907-4504-af6b-138c3557904b.png)  
-.  
+![](https://user-images.githubusercontent.com/9384127/176759153-41a434af-5a0e-42d9-bd16-bf5c85b302d6.png)  
 .
 
 ---
