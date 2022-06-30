@@ -228,6 +228,6 @@ dotnet add package Microsoft.EntityFrameworkCore.SqlServer
 ```
 Verify all componentes
 ```
-dotnet ef -h
+dotnet ef
 ```
 ---
