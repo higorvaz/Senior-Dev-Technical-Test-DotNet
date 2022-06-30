@@ -205,4 +205,10 @@ INSERT INTO Bank.dbo.TraderTransaction (TransactionName,TraderID,TransactionValu
 ```
 sudo apt install dotnet-sdk-6.0
 ```
+```
+dotnet tool install --global dotnet-ef
+```
+```
+dotnet tool update --global dotnet-ef
+```
 ---
