@@ -15,19 +15,20 @@ Currently, there are three categories rules: 
 LOWRISK: Trades with value less than 1,000,000 and client from Public Sector   
 MEDIUMRISK: Trades with value greater than 1,000,000 and client from Public Sector   
 HIGHRISK: Trades with value greater than 1,000,000 and client from Private Sector   
-Imagine you receive a list of trades and you need to return a list of categories as below: 
+Imagine you receive a list of trades and you need to return a list of categories as below:
 
 input: `List<ITrade> portfolio`  
 output: `List<string> tradeCategories`
 
-Input:   
-Trade1 {Value = 2000000; ClientSector = "Private"}   
-Trade2 {Value = 400000; ClientSector = "Public"}   
-Trade3 {Value = 500000; ClientSector = "Public"}   
-Trade4 {Value = 3000000; ClientSector = "Public"}   
-portfolio = {Trade1, Trade2, Trade3, Trade4} 
-
-Output: tradeCategories = {"HIGHRISK", "LOWRISK", "LOWRISK", "MEDIUMRISK"} 
+Example:  
+Input:  
+`Trade1 {Value = 2000000; ClientSector = "Private"}`  
+`Trade2 {Value = 400000; ClientSector = "Public"}`  
+`Trade3 {Value = 500000; ClientSector = "Public"}`  
+`Trade4 {Value = 3000000; ClientSector = "Public"}`  
+`portfolio = {Trade1, Trade2, Trade3, Trade4}`  
+Output:  
+`tradeCategories = {"HIGHRISK", "LOWRISK", "LOWRISK", "MEDIUMRISK"}`
 
 Your design must take into account category rules can be added/removed/modified and will become highly complex in the near future. Please write your answer in C# showing clearly what classes, interfaces, methods and design patterns you would create/use to solve this problem. Also, object oriented programming is required. 
 
