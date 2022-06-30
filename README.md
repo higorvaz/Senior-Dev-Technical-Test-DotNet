@@ -245,7 +245,7 @@ Verify all componentes
 dotnet ef
 ```
 
-![](https://user-images.githubusercontent.com/9384127/176754312-fdb624ee-ac13-4fba-ac87-a1afc3673f04.png)
+![](https://user-images.githubusercontent.com/9384127/176754312-fdb624ee-ac13-4fba-ac87-a1afc3673f04.png)  
 .
 
 #### Step 2.3: Generate all the reverse engineering code based on the database and save it on the Model folder
@@ -253,5 +253,9 @@ dotnet ef
 ```
 dotnet ef dbcontext scaffold "Data Source=localhost; Initial Catalog=Bank; User Id=sa; Password=PassWord232#"  Microsoft.EntityFrameworkCore.SqlServer -o Model
 ```
+
+![](https://user-images.githubusercontent.com/9384127/176758898-257c5756-e907-4504-af6b-138c3557904b.png)  
+.  
+.
 
 ---
