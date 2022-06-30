@@ -215,5 +215,8 @@ dotnet tool update --global dotnet-ef
 ```
 dotnet new console -o BankTraders
 ```
-
+Go to the project folder
+```
+cd BankTraders
+```
 ---
