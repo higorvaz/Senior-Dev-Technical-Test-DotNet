@@ -38,8 +38,7 @@ Your design must take into account category rules can be added/removed/modified 
 
 ---
 
-##   
-Resolution  
+## Resolution  
   
   
   
