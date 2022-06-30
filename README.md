@@ -42,8 +42,10 @@ Your design must take into account category rules can be added/removed/modified 
 
 ### Step 1: MS SQL image container
 
+```
 docker run -e "ACCEPT\_EULA=Y" -e "SA\_PASSWORD=PassWord232#" -p 1433:1433 -d mcr.microsoft.com/mssql/server:latest
 
+```
 #### Step 1.1: Database Schema
 
 ```
