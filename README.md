@@ -211,6 +211,7 @@ dotnet tool install --global dotnet-ef
 ```
 dotnet tool update --global dotnet-ef
 ```
+#### Step 2.2: Create new project based on the DotNet 'Console' template tool
 ```
 dotnet new console -o BankTraders
 ```
