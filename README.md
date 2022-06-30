@@ -1,6 +1,6 @@
 # Senior-Dev-Technical-Test-DotNet
 
-Senior Dev Technical Test DotNet (All done on pure Ubuntu 21.10 Lnux machine)
+Senior Dev Technical Test DotNet (All done on pure Ubuntu 21.10 Linux machine)
 
 ## Question 1.
 
@@ -261,3 +261,5 @@ dotnet ef dbcontext scaffold "Data Source=localhost; Initial Catalog=Bank; User 
 ![](https://camo.githubusercontent.com/e50420181f6dfab76961e02a8510ddbf72d366d2bcad0808c5e9f2b32deb18ff/68747470733a2f2f6c68352e676f6f676c6575736572636f6e74656e742e636f6d2f4c5179634f74617a7675454465426e7a5a6372494c6a5045574a792d7436594b35316f505f476247635453384c68544842785f5f6d6a2d56765062453941434f3952486f5853505746566c34776e6152634d474c71345071693973644330556b4e5879597777773855584e654a6a4876746965784f4b6871543278504f53756a51706d32596e642d7a7833375758784b5667)
 
 ---
+
+.
