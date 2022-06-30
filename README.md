@@ -7,22 +7,18 @@ Senior Dev Technical Test DotNet
  Identify the categories of trades in a bank´s portfolio. A bank has a portfolio of thousands of trades and they need to be categorized.   
 A trade is a commercial negotiation between a bank and a client.   
 Each trade has a value that indicates the transaction amount in dollars and a text indicating if the client´s sector is "Public" or "Private".   
-They implement the following interface: 
+They implement the following interface:
 
-  
-`interface ITrade { double Value { get; } string ClientSector { get; } }` 
+`interface ITrade { double Value { get; } string ClientSector { get; } }`
 
-  
 Currently, there are three categories rules:   
 LOWRISK: Trades with value less than 1,000,000 and client from Public Sector   
 MEDIUMRISK: Trades with value greater than 1,000,000 and client from Public Sector   
 HIGHRISK: Trades with value greater than 1,000,000 and client from Private Sector   
-Imagine you receive a list of trades and you need to return a list of categories as below:   
-  
-input: 
+Imagine you receive a list of trades and you need to return a list of categories as below: 
 
-List portfolio output:   
-List tradeCategories Example: 
+input: `List<ITrade> portfolio`  
+output: `List<string> tradeCategories`
 
 Input:   
 Trade1 {Value = 2000000; ClientSector = "Private"}   
