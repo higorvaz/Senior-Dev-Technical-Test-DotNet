@@ -2,7 +2,6 @@
 
 Senior Dev Technical Test DotNet (All done on pure Ubuntu 21.10 Lnux machine)
 
-
 ## Question 1.
 
 Identify the categories of trades in a bank´s portfolio. A bank has a portfolio of thousands of trades and they need to be categorized.   
@@ -173,7 +172,8 @@ ON bt.[TraderID] = tr.[TraderID]
 ;
 ```
 
-#### Step 1.2: Database Dump  
+#### Step 1.2: Database Dump
+
 ```
 INSERT INTO Bank.dbo.Bank (BankName) VALUES  
 (N'Banco do Brazel'),  
@@ -200,34 +200,51 @@ INSERT INTO Bank.dbo.TraderTransaction (TransactionName,TraderID,TransactionValu
 (N'Investment',5,400000,400000.0000),  
 (N'Loan',4,3000000,3000000.0000);
 ```
+
 ### Step 2: The Entity Framework reverse engineering databsase auto gererating code
+
 #### Step 2.1: Install necesssary tools
+
 ```
 sudo apt install dotnet-sdk-6.0
 ```
+
 ```
 dotnet tool install --global dotnet-ef
 ```
+
 ```
 dotnet tool update --global dotnet-ef
 ```
+
 #### Step 2.2: Create new project based on the DotNet 'Console' template tool
+
 ```
 dotnet new console -o BankTraders
 ```
+
 Go to the project folder
+
 ```
 cd BankTraders
 ```
+
 Add the dependencies
+
 ```
 dotnet add package Microsoft.EntityFrameworkCore.Design
 ```
+
 ```
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer
 ```
+
 Verify all componentes
+
 ```
 dotnet ef
 ```
+
+![](https://user-images.githubusercontent.com/9384127/176754312-fdb624ee-ac13-4fba-ac87-a1afc3673f04.png)
+
 ---
