@@ -32,22 +32,12 @@ Output:
 
 Your design must take into account category rules can be added/removed/modified and will become highly complex in the near future. Please write your answer in C# showing clearly what classes, interfaces, methods and design patterns you would create/use to solve this problem. Also, object oriented programming is required. 
 
-### Question 2.
+## Question 2.
 
  Write a procedural version of your solution for question 1, in T-SQL (SQL Server). Your procedure must write the inputs and outputs in one or more tables (model the table(s) using the best practices). Include the script to create the table(s) in your answer.
 
 ---
 
-## Resolution  
-  
-  
-  
-  
-  
-  
-  
-  
-  
- 
+## Resolution
 
 ---
