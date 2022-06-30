@@ -44,7 +44,7 @@ Your design must take into account category rules can be added/removed/modified 
 
 docker run -e "ACCEPT\_EULA=Y" -e "SA\_PASSWORD=PassWord232#" -p 1433:1433 -d mcr.microsoft.com/mssql/server:latest
 
-### Step 1.1: Database Schema
+#### Step 1.1: Database Schema
 
 ```
 -- DROP SCHEMA dbo;
@@ -172,7 +172,7 @@ ON bt.[TraderID] = tr.[TraderID]
 ;
 ```
 
-Step 1.2: Database Dump  
+#### Step 1.2: Database Dump  
 ```
 INSERT INTO Bank.dbo.Bank (BankName) VALUES  
 (N'Banco do Brazel'),  
@@ -199,4 +199,7 @@ INSERT INTO Bank.dbo.TraderTransaction (TransactionName,TraderID,TransactionValu
 (N'Investment',5,400000,400000.0000),  
 (N'Loan',4,3000000,3000000.0000);
 ```
+### Step 2: The code
+
+
 ---
