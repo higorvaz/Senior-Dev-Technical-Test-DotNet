@@ -1,6 +1,7 @@
 # Senior-Dev-Technical-Test-DotNet
 
-Senior Dev Technical Test DotNet
+Senior Dev Technical Test DotNet (All done on pure Ubuntu 21.10 Lnux machine)
+
 
 ## Question 1.
 
@@ -200,6 +201,8 @@ INSERT INTO Bank.dbo.TraderTransaction (TransactionName,TraderID,TransactionValu
 (N'Loan',4,3000000,3000000.0000);
 ```
 ### Step 2: The code
-
-
+#### Step 2.1: Intall necesssary tools
+```
+sudo apt install dotnet-sdk-6.0
+```
 ---
